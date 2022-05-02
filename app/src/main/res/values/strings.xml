@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">PROYECTO COMPUTO MOVIL </string>
+    <string name="Selecciona_opcion">SELECCIONA UNA OPCION</string>
+    <string name="Botoninicio">Inicio</string>
+    <string name="title_activity_formula3">Formula3</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="presentacion_splash">Hola, esta aplicacion fue elaborada por Pamela Villafañe </string>
+    <string name="version"> version 7.1.3 </string>
+
+    <string name="Pendiente">Pendiente de una recta</string>
+    <string name="Pitagoras">Pitagoras</string>
+    <string name="Aceleracion">Fórmula de la aceleración</string>
+
+    <string name="Botonpitagoras">CALCULAR</string>
+    <string name="Botonaceleracion">CALCULAR</string>
+    <string name="Botonrecta">CALCULAR</string>
+
+
+    <string name="y2">Ingrese y2</string>
+    <string name="y1">Ingrese y1</string>
+    <string name="x2">Ingrese x2</string>
+    <string name="x1">Ingrese x1</string>
+
+
+    <string name="Resultadorecta">La pendiente de la recta es </string>
+
+
+    <string-array name="Operaciones">
+        <item>Pitagoras</item>
+        <item>Aceleracion</item>
+        <item>Pendiente de una Recta</item>
+    </string-array>
+    <string name="saludo">B</string>
+
+
+</resources>

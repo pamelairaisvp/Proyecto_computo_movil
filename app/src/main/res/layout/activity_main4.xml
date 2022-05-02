@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".MainActivity4">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="155dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aceleracion" />
+
+    <TextView
+        android:id="@+id/tvaceleracion"
+        android:layout_width="300dp"
+        android:layout_height="144dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="16dp"
+        android:bufferType="normal"
+        android:rotationX="22"
+        android:text="@string/Aceleracion"
+        android:textColor="#FFEB3B"
+        android:textSize="48sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/tvaceleracion_1"
+        android:layout_width="297dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Ingresa la diferencia de velocidades"
+        android:inputType="number"
+        android:textColor="#FBF9F9"
+        android:textColorHint="#FAF4F4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/tvaceleracion_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="Ingresa tiempo"
+        android:inputType="number"
+        android:shadowColor="#F8F5F5"
+        android:textColorHint="#E4DFDF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvaceleracion_1"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/boton_aceleracion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/Botonaceleracion"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvaceleracion_2" />
+
+    <EditText
+        android:id="@+id/tvaceleracion_3"
+        android:layout_width="135dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="El resultado es"
+        android:inputType="number"
+        android:shadowColor="#F1EDED"
+        android:textColorHint="#E6E2E2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boton_aceleracion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
